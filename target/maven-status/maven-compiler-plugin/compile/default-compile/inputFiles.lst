@@ -1,0 +1,9 @@
+D:\!_Software_Testing\Skillbox\Skillbox Homeworks_Java basics_AUTOTEST\java_basics\SpringBootApplicationPart2\src\main\java\com\example\springexample\jpa\SpringExampleApplication.java
+D:\!_Software_Testing\Skillbox\Skillbox Homeworks_Java basics_AUTOTEST\java_basics\SpringBootApplicationPart2\src\main\java\com\example\springexample\jpa\entity\News.java
+D:\!_Software_Testing\Skillbox\Skillbox Homeworks_Java basics_AUTOTEST\java_basics\SpringBootApplicationPart2\src\main\java\com\example\springexample\jpa\services\NewsCRUDService.java
+D:\!_Software_Testing\Skillbox\Skillbox Homeworks_Java basics_AUTOTEST\java_basics\SpringBootApplicationPart2\src\main\java\com\example\springexample\jpa\controllers\NewsController.java
+D:\!_Software_Testing\Skillbox\Skillbox Homeworks_Java basics_AUTOTEST\java_basics\SpringBootApplicationPart2\src\main\java\com\example\springexample\jpa\repositories\CategoriesRepository.java
+D:\!_Software_Testing\Skillbox\Skillbox Homeworks_Java basics_AUTOTEST\java_basics\SpringBootApplicationPart2\src\main\java\com\example\springexample\jpa\entity\Category.java
+D:\!_Software_Testing\Skillbox\Skillbox Homeworks_Java basics_AUTOTEST\java_basics\SpringBootApplicationPart2\src\main\java\com\example\springexample\jpa\repositories\NewsRepository.java
+D:\!_Software_Testing\Skillbox\Skillbox Homeworks_Java basics_AUTOTEST\java_basics\SpringBootApplicationPart2\src\main\java\com\example\springexample\jpa\dto\NewsDto.java
+D:\!_Software_Testing\Skillbox\Skillbox Homeworks_Java basics_AUTOTEST\java_basics\SpringBootApplicationPart2\src\main\java\com\example\springexample\jpa\services\CRUDService.java

@@ -1,0 +1,9 @@
+com\example\springexample\jpa\repositories\NewsRepository.class
+com\example\springexample\jpa\SpringExampleApplication.class
+com\example\springexample\jpa\services\NewsCRUDService.class
+com\example\springexample\jpa\entity\Category.class
+com\example\springexample\jpa\repositories\CategoriesRepository.class
+com\example\springexample\jpa\services\CRUDService.class
+com\example\springexample\jpa\controllers\NewsController.class
+com\example\springexample\jpa\entity\News.class
+com\example\springexample\jpa\dto\NewsDto.class

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="createCategoryTable" author="skillboxkate">
+        <createTable tableName="category">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="title" type="varchar(255)"/>
+        </createTable>
+    </changeSet>
+    <changeSet id="createNewsTable" author="skillboxkate">
+        <createTable tableName="news">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="text" type="varchar(255)"/>
+            <column name="categoryId" type="bigint">
+                <constraints nullable="false"/>
+            </column>
+            <column name="date" type="timestamp"/>
+        </createTable>
+    </changeSet>
+
+    <changeSet id="renameDateColumn" author="skillboxkate">
+        <renameColumn tableName="news" oldColumnName="date" newColumnName="created_at"/>
+    </changeSet>
+    <changeSet id="renameCategoryIdColumn" author="skillboxkate">
+        <renameColumn tableName="news" oldColumnName="categoryId" newColumnName="category_id"/>
+    </changeSet>
+
+</databaseChangeLog>
